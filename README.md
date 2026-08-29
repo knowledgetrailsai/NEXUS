@@ -1,4 +1,4 @@
-# OASIS Agentic Grid
+# Nexus:OASIS Agentic Grid
 
 A catalog of agentic AI automation opportunities, organized as a **grid**: business functions (which repeat across industries) crossed with domains (which give each function its industry-specific shape). Built to answer, concretely: *where in our business is agentic AI actually a good fit, and how far can automation realistically go there?*
 
