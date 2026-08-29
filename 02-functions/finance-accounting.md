@@ -1,0 +1,36 @@
+# Function: Finance & Accounting
+
+`Home › 02-functions › Finance & Accounting`
+
+## Why This Function Is a Strong Fit
+
+Structured documents, deterministic validation rules, and clear ground truth (does the math reconcile) make finance one of the most tractable functions for agentic automation — and one of the best-suited to the [oasis-fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) cost/value density model, since outcomes are usually unambiguous.
+
+## Common Opportunity Patterns
+
+| Pattern | Typical starting level | Use case |
+|---|---|---|
+| Invoice processing and 3-way match | L2 → L3 | [Invoice Processing & 3-Way Match Agent](../05-use-cases/invoice-processing-3way-match-agent.md) |
+| Expense report audit and policy compliance | L2 → L3 | [Expense Audit Agent](../05-use-cases/expense-audit-agent.md) |
+| Financial close checklist and reconciliation support | L1 → L2 | Not yet detailed |
+| Forecast variance analysis and commentary drafting | L1 → L2 | Not yet detailed |
+
+## Domain Applicability
+
+| Domain | Notes |
+|---|---|
+| [Manufacturing](../03-domains/manufacturing.md), [Retail & CPG](../03-domains/retail-cpg.md) | Core — high transaction volume, PO-driven processes |
+| [Financial Services](../03-domains/financial-services.md), [Insurance](../03-domains/insurance.md) | Core, with materially higher regulatory reporting requirements |
+| [Technology & SaaS](../03-domains/technology-saas.md) | Core — subscription billing and revenue recognition add specific variants |
+| [Healthcare](../03-domains/healthcare.md), [Public Sector](../03-domains/public-sector.md) | Applies generically, often with additional grant/fund accounting rules |
+
+## Key Cross-Cutting Risks
+
+- Errors compound silently in high-volume, low-unit-value transactions until an audit surfaces them — see [Value Leakage](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/03-value-economics/value-leakage.md)
+- Threshold-based autonomy (L4) requires strong audit logging — never remove human traceability entirely
+- Segregation-of-duties controls must be preserved even when a single agent could technically perform multiple steps
+
+---
+
+**Previous:** [HR & People](hr-people.md)
+**Next:** [IT & Security](it-security.md)
