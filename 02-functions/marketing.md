@@ -33,4 +33,4 @@ Content generation, personalization at scale, and spend allocation are all patte
 ---
 
 **Previous:** [Customer Relations & Support](customer-relations-support.md)
-**Next:** [HR & People](hr-people.md)
+**Next:** [Data & Analytics](data-analytics.md)

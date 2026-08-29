@@ -32,5 +32,5 @@ Forecasting, replenishment, and logistics coordination are data-rich, pattern-ba
 
 ---
 
-**Previous:** [Legal & Compliance](legal-compliance.md)
-**Next section:** [03-domains](../03-domains/financial-services.md)
+**Previous:** [Risk & Internal Audit](risk-internal-audit.md)
+**Next:** [Research & Development](research-development.md)

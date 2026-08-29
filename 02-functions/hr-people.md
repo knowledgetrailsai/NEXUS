@@ -32,5 +32,5 @@ Largely domain-generic — HR patterns are similar across industries, with regul
 
 ---
 
-**Previous:** [Marketing](marketing.md)
+**Previous:** [Data & Analytics](data-analytics.md)
 **Next:** [Finance & Accounting](finance-accounting.md)

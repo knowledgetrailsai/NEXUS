@@ -33,4 +33,4 @@ Contract and document review are pattern-rich and time-consuming — good agenti
 ---
 
 **Previous:** [IT & Security](it-security.md)
-**Next:** [Supply Chain & Operations](supply-chain-operations.md)
+**Next:** [Risk & Internal Audit](risk-internal-audit.md)

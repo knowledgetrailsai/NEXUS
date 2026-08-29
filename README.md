@@ -33,11 +33,14 @@ New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repo
 - [Sales](02-functions/sales.md)
 - [Customer Relations & Support](02-functions/customer-relations-support.md)
 - [Marketing](02-functions/marketing.md)
+- [Data & Analytics](02-functions/data-analytics.md)
 - [HR & People](02-functions/hr-people.md)
 - [Finance & Accounting](02-functions/finance-accounting.md)
 - [IT & Security](02-functions/it-security.md)
 - [Legal & Compliance](02-functions/legal-compliance.md)
+- [Risk & Internal Audit](02-functions/risk-internal-audit.md)
 - [Supply Chain & Operations](02-functions/supply-chain-operations.md)
+- [Research & Development](02-functions/research-development.md)
 
 ### 03 · Domains (the industry-specific variants)
 - [Financial Services](03-domains/financial-services.md)
@@ -51,13 +54,17 @@ New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repo
 - [Energy & Utilities](03-domains/energy-utilities.md)
 - [Education & Higher Education](03-domains/education-higher-education.md)
 - [Travel & Hospitality](03-domains/travel-hospitality.md)
+- [Industrial & Heavy Operations](03-domains/industrial-heavy-operations.md)
+- [Scientific Research & Life Sciences R&D](03-domains/scientific-research.md)
+- [Capital Markets & Investment Banking](03-domains/capital-markets-investment-banking.md)
+- [Advertising & Media](03-domains/advertising-media.md)
 
 ### 04 · Grid
 - [The Opportunity Grid](04-grid/opportunity-grid.md) — the full function × domain matrix
 - [Prioritization Framework](04-grid/prioritization-framework.md)
 
 ### 05 · Use Cases
-20 detailed entries spanning the common function patterns plus domain-exclusive workflows — see [05-use-cases/](05-use-cases/) for the full list. Domain-exclusive entries are intentionally not forced into the general grid.
+34 detailed entries spanning the common function patterns plus domain-exclusive workflows — see [05-use-cases/](05-use-cases/) for the full list. Domain-exclusive entries are intentionally not forced into the general grid. Newer entries also carry a "Who This Is For" section (plain-language / business / technical summaries) and a KPIs Influenced section — see the [use case template](templates/use-case-template.md).
 
 ### Glossary & Templates
 - [Glossary](glossary/glossary.md)
