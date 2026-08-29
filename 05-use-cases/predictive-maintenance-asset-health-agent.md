@@ -3,7 +3,7 @@
 `Home › 05-use-cases › Predictive Maintenance & Asset Health Agent`
 
 **Exclusive domain:** [Industrial & Heavy Operations](../03-domains/industrial-heavy-operations.md)
-**Primary Function:** [Supply Chain & Operations](../02-functions/supply-chain-operations.md)
+**Primary Function:** [Operations & Resource Scheduling](../02-functions/operations-resource-scheduling.md)
 
 ## Who This Is For
 

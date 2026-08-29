@@ -10,8 +10,9 @@ Asset-intensive, geographically distributed operations with regulated service ob
 
 | Function | Relevance | Notes |
 |---|---|---|
-| [Supply Chain & Operations](../02-functions/supply-chain-operations.md) | Core | Work orders, outage coordination, maintenance planning |
+| [Operations & Resource Scheduling](../02-functions/operations-resource-scheduling.md) | Core | Field technician dispatch, outage coordination, maintenance scheduling |
 | [Customer Relations & Support](../02-functions/customer-relations-support.md) | Core | Outage, billing, and service-request volume |
+| [Supply Chain & Operations](../02-functions/supply-chain-operations.md) | Adaptable | Spare-parts logistics and warehouse coordination |
 | [Finance & Accounting](../02-functions/finance-accounting.md) | Adaptable | Meter-to-cash and regulatory cost allocation |
 | [IT & Security](../02-functions/it-security.md) | Adaptable | OT/IT separation and incident response |
 

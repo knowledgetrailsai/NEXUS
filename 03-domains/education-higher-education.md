@@ -11,6 +11,7 @@ Institutions combine public-service obligations, seasonal operations, student re
 | Function | Relevance | Notes |
 |---|---|---|
 | [Customer Relations & Support](../02-functions/customer-relations-support.md) | Core | Student and applicant inquiry triage |
+| [Operations & Resource Scheduling](../02-functions/operations-resource-scheduling.md) | Core | Timetabling, room, and instructor conflict resolution |
 | [HR & People](../02-functions/hr-people.md) | Core | Faculty/staff onboarding and credential workflows |
 | [Finance & Accounting](../02-functions/finance-accounting.md) | Adaptable | Tuition, grants, and fund restrictions |
 | [IT & Security](../02-functions/it-security.md) | Adaptable | Identity lifecycle and service desk demand |

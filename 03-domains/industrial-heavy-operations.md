@@ -16,7 +16,8 @@ Distinct from the discrete-manufacturing patterns already covered in [Manufactur
 
 | Function | Relevance | Notes |
 |---|---|---|
-| [Supply Chain & Operations](../02-functions/supply-chain-operations.md) | Core | Asset maintenance planning, work order generation, spare-parts logistics |
+| [Operations & Resource Scheduling](../02-functions/operations-resource-scheduling.md) | Core | Asset maintenance scheduling from condition data |
+| [Supply Chain & Operations](../02-functions/supply-chain-operations.md) | Core | Spare-parts logistics |
 | [Purchasing & Procurement](../02-functions/purchasing-procurement.md) | Core | Capital equipment and MRO (maintenance, repair, operations) procurement |
 | [Legal & Compliance](../02-functions/legal-compliance.md) | Adaptable | Environmental, health, and safety (EHS) permit and reporting obligations |
 | [Risk & Internal Audit](../02-functions/risk-internal-audit.md) | Adaptable | Safety-incident and near-miss pattern monitoring |

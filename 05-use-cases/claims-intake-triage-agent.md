@@ -3,7 +3,7 @@
 `Home › 05-use-cases › Claims Intake & Triage Agent`
 
 **Exclusive domain:** [Insurance](../03-domains/insurance.md)
-**Primary Function:** [Customer Relations & Support](../02-functions/customer-relations-support.md)
+**Primary Functions:** [Claims Management](../02-functions/claims-management.md), [Customer Relations & Support](../02-functions/customer-relations-support.md)
 
 ## Problem / Trigger
 

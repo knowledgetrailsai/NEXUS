@@ -37,5 +37,5 @@ R&D work is bimodal: a large share of it (literature review, protocol drafting, 
 
 ---
 
-**Previous:** [Supply Chain & Operations](supply-chain-operations.md)
+**Previous:** [Claims Management](claims-management.md)
 **Next section:** [03-domains](../03-domains/financial-services.md)

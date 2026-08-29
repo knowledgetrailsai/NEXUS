@@ -14,13 +14,14 @@ Function × domain, at a glance. **Core** = well-evidenced pattern, often with a
 | [Finance & Accounting](../02-functions/finance-accounting.md) | **Core** | Applies | **Core** | **Core** | **Core** | Applies | Applies | **Core** |
 | [IT & Security](../02-functions/it-security.md) | Adaptable | Adaptable | Applies | Applies | Applies | Applies | Applies | Adaptable |
 | [Legal & Compliance](../02-functions/legal-compliance.md) | **Core** | Adaptable | Applies | Applies | **Core** | Applies | Adaptable | **Core** |
-| [Supply Chain & Operations](../02-functions/supply-chain-operations.md) | Limited | Applies* | **Core** | **Core** | **Core**† | Adaptable | Limited | Limited |
+| [Supply Chain & Operations](../02-functions/supply-chain-operations.md) | Limited | Applies* | **Core** | **Core** | Limited | Adaptable | Limited | Limited |
+| [Quality Management](../02-functions/quality-management.md) | Limited | Adaptable | Adaptable | **Core** | Limited | Limited | Limited | Limited |
+| [Claims Management](../02-functions/claims-management.md) | Adaptable | Adaptable | Limited | Limited | **Core** | Limited | Limited | Limited |
 | [Data & Analytics](../02-functions/data-analytics.md) | **Core** | Applies | **Core** | Adaptable | **Core** | Applies | Applies | **Core** |
 | [Risk & Internal Audit](../02-functions/risk-internal-audit.md) | **Core** | Adaptable | Applies | Adaptable | **Core** | Applies | Adaptable | **Core** |
 | [Research & Development](../02-functions/research-development.md) | Limited | Adaptable | Limited | Applies | Limited | Limited | Limited | Applies |
 
 \* Medical inventory supply chain — a notable adjacent case within Healthcare, not detailed as a standalone use case.
-† Claims processing maps onto this function's structured intake/validation/exception pattern — see [Insurance domain notes](../03-domains/insurance.md#claims-processing--a-domain-specific-note).
 
 **Domains not yet gridded:** [Energy & Utilities](../03-domains/energy-utilities.md), [Education & Higher Education](../03-domains/education-higher-education.md), [Travel & Hospitality](../03-domains/travel-hospitality.md), [Industrial & Heavy Operations](../03-domains/industrial-heavy-operations.md), [Scientific Research & Life Sciences R&D](../03-domains/scientific-research.md), [Capital Markets & Investment Banking](../03-domains/capital-markets-investment-banking.md), and [Advertising & Media](../03-domains/advertising-media.md) each have their strongest opportunities documented as domain-exclusive use cases instead — see each domain file's "Domain-Exclusive Opportunities" section rather than this grid.
 

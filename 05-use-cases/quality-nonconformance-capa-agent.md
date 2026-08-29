@@ -3,7 +3,7 @@
 `Home › 05-use-cases › Quality Non-Conformance & CAPA Routing Agent`
 
 **Exclusive domain:** [Manufacturing & Industrial](../03-domains/manufacturing.md)
-**Primary Function:** [Supply Chain & Operations](../02-functions/supply-chain-operations.md)
+**Primary Function:** [Quality Management](../02-functions/quality-management.md)
 
 ## Problem / Trigger
 

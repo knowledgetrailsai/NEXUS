@@ -19,6 +19,7 @@ Every file in this repository, one flat list. If this ever drifts from [README.m
 
 ## 02-functions
 
+- [Function: Claims Management](02-functions/claims-management.md)
 - [Function: Customer Relations & Support](02-functions/customer-relations-support.md)
 - [Function: Data & Analytics](02-functions/data-analytics.md)
 - [Function: Finance & Accounting](02-functions/finance-accounting.md)
@@ -26,7 +27,9 @@ Every file in this repository, one flat list. If this ever drifts from [README.m
 - [Function: IT & Security](02-functions/it-security.md)
 - [Function: Legal & Compliance](02-functions/legal-compliance.md)
 - [Function: Marketing](02-functions/marketing.md)
+- [Function: Operations & Resource Scheduling](02-functions/operations-resource-scheduling.md)
 - [Function: Purchasing & Procurement](02-functions/purchasing-procurement.md)
+- [Function: Quality Management](02-functions/quality-management.md)
 - [Function: Research & Development](02-functions/research-development.md)
 - [Function: Risk & Internal Audit](02-functions/risk-internal-audit.md)
 - [Function: Sales](02-functions/sales.md)

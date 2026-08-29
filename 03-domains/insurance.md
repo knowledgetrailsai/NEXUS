@@ -10,14 +10,14 @@ Document- and rules-heavy by nature (policies, claims, underwriting guidelines),
 
 | Function | Relevance | Notes |
 |---|---|---|
-| [Supply Chain & Operations](../02-functions/supply-chain-operations.md) | Core (domain-specific variant) | Claims processing maps onto this function's general pattern — see note below |
+| [Claims Management](../02-functions/claims-management.md) | Core | This domain's flagship function — see note below |
 | [Customer Relations & Support](../02-functions/customer-relations-support.md) | Core | High ticket volume around policy and claims questions |
 | [Legal & Compliance](../02-functions/legal-compliance.md) | Core | High contract volume, heavy regulatory overlay |
 | [Sales](../02-functions/sales.md) | Adaptable | Suitability/disclosure rules constrain outreach |
 
 ## Claims Processing — A Domain-Specific Note
 
-Insurance claims processing is not yet written up as a standalone use case, but should be modeled closely on [Invoice Processing & 3-Way Match Agent](../05-use-cases/invoice-processing-3way-match-agent.md) (structured validation against source documents) combined with the risk posture of [oasis-fulcrum's claims processing sector guidance](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/09-sector-specific-finops/claims-processing.md), which treats evaluation depth as proportional to claim value and risk. Contributions welcome — see [CONTRIBUTING.md](../CONTRIBUTING.md).
+Insurance claims processing is a distinct business function in its own right — see [Claims Management](../02-functions/claims-management.md) — not a variant of physical-goods supply chain or generic operations, given its own regulatory fairness and appeal-rights obligations. First-notice-of-loss intake and triage is detailed in [Claims Intake & Triage Agent](../05-use-cases/claims-intake-triage-agent.md); full adjudication and settlement automation is not yet written up as a standalone use case and should be scoped with the risk posture of [oasis-fulcrum's claims processing sector guidance](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/09-sector-specific-finops/claims-processing.md), which treats evaluation depth as proportional to claim value and risk. Contributions welcome — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Regulatory Considerations
 

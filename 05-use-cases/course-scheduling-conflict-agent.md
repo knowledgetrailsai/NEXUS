@@ -3,7 +3,7 @@
 `Home › 05-use-cases › Course Scheduling Conflict Agent`
 
 **Exclusive domain:** [Education & Higher Education](../03-domains/education-higher-education.md)
-**Primary Function:** [Supply Chain & Operations](../02-functions/supply-chain-operations.md)
+**Primary Function:** [Operations & Resource Scheduling](../02-functions/operations-resource-scheduling.md)
 
 ## Problem / Trigger
 

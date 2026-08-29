@@ -12,6 +12,7 @@ Tightly coupled to physical supply chains and just-in-time delivery — automati
 |---|---|---|
 | [Purchasing & Procurement](../02-functions/purchasing-procurement.md) | Core | High PO volume, tight supplier integration |
 | [Supply Chain & Operations](../02-functions/supply-chain-operations.md) | Core | Often the highest-value function in this domain |
+| [Quality Management](../02-functions/quality-management.md) | Core | Non-conformance classification, routing, and CAPA tracking |
 | [Finance & Accounting](../02-functions/finance-accounting.md) | Core | High transaction volume, PO-driven processes |
 | [Sales](../02-functions/sales.md) | Core | Complex, configurable quoting is a strong fit |
 

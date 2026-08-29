@@ -3,7 +3,7 @@
 `Home › 05-use-cases › Outage Communication & Restoration Agent`
 
 **Exclusive domain:** [Energy & Utilities](../03-domains/energy-utilities.md)
-**Primary Functions:** [Customer Relations & Support](../02-functions/customer-relations-support.md), [Supply Chain & Operations](../02-functions/supply-chain-operations.md)
+**Primary Functions:** [Customer Relations & Support](../02-functions/customer-relations-support.md), [Operations & Resource Scheduling](../02-functions/operations-resource-scheduling.md)
 
 ## Problem / Trigger
 

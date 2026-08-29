@@ -40,6 +40,9 @@ New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repo
 - [Legal & Compliance](02-functions/legal-compliance.md)
 - [Risk & Internal Audit](02-functions/risk-internal-audit.md)
 - [Supply Chain & Operations](02-functions/supply-chain-operations.md)
+- [Quality Management](02-functions/quality-management.md)
+- [Operations & Resource Scheduling](02-functions/operations-resource-scheduling.md)
+- [Claims Management](02-functions/claims-management.md)
 - [Research & Development](02-functions/research-development.md)
 
 ### 03 · Domains (the industry-specific variants)
