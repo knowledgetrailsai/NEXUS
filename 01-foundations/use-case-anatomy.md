@@ -48,9 +48,9 @@ This turns a catalog hypothesis into a testable delivery brief without pretendin
 
 ---
 
-**Related:** [Principles](principles.md) · [Agentic Automation Spectrum](agentic-automation-spectrum.md) · [Capabilities & Outcomes](capabilities-and-outcomes.md) · [Use Case Template](../templates/use-case-template.md)
+**Related:** [Principles](principles.md) · [Agentic Automation Spectrum](agentic-automation-spectrum.md) · [Capabilities & Outcomes](capabilities-and-outcomes.md) · [Discovering Use Cases](discovering-use-cases.md) · [Use Case Template](../templates/use-case-template.md)
 
 ---
 
-**Previous:** [Capabilities & Outcomes](capabilities-and-outcomes.md)
+**Previous:** [Discovering Use Cases](discovering-use-cases.md)
 **Next section:** [02-functions](../02-functions/purchasing-procurement.md)

@@ -5,6 +5,9 @@
 **Primary Function:** [Finance & Accounting](../02-functions/finance-accounting.md)
 **Primary Domains:** Applies generically across all domains
 **Also Applicable To:** All domains
+**Capability:** Continuous Monitoring & Flagging
+**Outcome Categories:** Time Saved, Risk Reduced, Coverage & Consistency Improved
+**Business Outcome Category:** Efficiency
 
 ## Problem / Trigger
 
@@ -14,7 +17,29 @@ Expense report review — checking receipts against policy, flagging out-of-poli
 
 An agent reviews every submitted expense report against documented policy (spend limits, category rules, required documentation), auto-approves fully compliant reports, and flags policy exceptions with the specific rule violated for human review — enabling exhaustive review instead of sampling.
 
-## Automation Maturity
+## Benefits
+
+- **For the finance team:** every report gets checked, not just a sample — the team's attention concentrates on genuine exceptions instead of spot-checking a fraction of the volume.
+- **For the business:** policy violations get caught at effectively 100% coverage instead of a sample, directly closing the gap a sampled review structurally can't.
+- **For the employee submitting an expense:** faster approval on compliant reports, since they're not waiting behind a manual review queue.
+
+## Agentic Design
+
+- **Inputs read:** the submitted expense report (receipts, categorization, amounts), and the documented expense policy (spend limits, category rules, required documentation).
+- **Reasoning steps:** check the report against every applicable policy rule → auto-approve fully compliant reports → flag policy exceptions with the specific rule violated for human review.
+- **Tools/actions available:** read access to the report and policy rules; a write action limited to approving a report and, at higher maturity, initiating payment for compliant reports under a defined threshold.
+- **Output produced:** an approval (compliant reports) or a flagged exception with the specific rule cited.
+
+## Multi-Agent Design (where relevant)
+
+Not needed as a default — policy-rule checking against a single report is a bounded, sequential task well within a single agent's scope. A split becomes worth considering only if audit sampling (spot-checking a subset of auto-approved reports for model drift) is added as a distinct, periodic function run by a separate **audit-sampling agent** rather than the same agent marking its own homework.
+
+## Autonomy → Outcome Mapping
+
+| Level | What the agent does | Human role | Outcome realized |
+|---|---|---|---|
+| L2 (automate, reviewed) | Reviews all reports, auto-approves compliant ones, routes exceptions | Finance team reviews every routed exception | Full-coverage review replaces sampling; exceptions get consistent, cited flags |
+| L3–L4 (exception-routed / autonomous, monitored) | Auto-approves and processes payment for compliant reports under a defined threshold, fully autonomously, with sampled audit | Finance team audits a sample and monitors drift rather than reviewing every compliant report | Near-full automation of the compliant-report population, with human attention concentrated on true exceptions and periodic quality assurance |
 
 - **Realistic starting level:** L2 — agent reviews all reports, auto-approves compliant ones, routes exceptions
 - **Potential ceiling:** L3–L4 — agent auto-approves and processes payment for compliant reports under a defined threshold, fully autonomously, with sampled audit

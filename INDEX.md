@@ -14,6 +14,7 @@ Every file in this repository, one flat list. If this ever drifts from [README.m
 - [Evaluation & Rollout](01-foundations/evaluation-and-rollout.md)
 - [The Agentic Automation Spectrum](01-foundations/agentic-automation-spectrum.md)
 - [Capabilities & Outcomes](01-foundations/capabilities-and-outcomes.md)
+- [Discovering Use Cases](01-foundations/discovering-use-cases.md)
 - [Principles](01-foundations/principles.md)
 - [Use-Case Anatomy](01-foundations/use-case-anatomy.md)
 - [What Is This Repository](01-foundations/what-is-this-repository.md)

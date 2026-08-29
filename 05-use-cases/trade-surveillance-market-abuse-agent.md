@@ -6,6 +6,7 @@
 **Primary Function:** [Risk & Internal Audit](../02-functions/risk-internal-audit.md)
 **Capability:** Continuous Monitoring & Flagging (secondary: Synthesis & Drafting, for the case file itself)
 **Outcome Categories:** Risk Reduced, Time Saved, Coverage & Consistency Improved
+**Business Outcome Category:** Risk & Compliance
 
 ## Who This Is For
 

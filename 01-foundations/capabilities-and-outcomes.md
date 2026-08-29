@@ -43,6 +43,26 @@ Every use case names which outcome categories it plausibly targets — this is t
 
 Most use cases target 2–3 of these; naming all of them dilutes the signal — see [Principles](principles.md).
 
+## Business Outcome Categories
+
+The Outcome Taxonomy above is precise but not how most business stakeholders talk. When you're reconciling a discovery finding against an executive priority (see [Discovering Use Cases](discovering-use-cases.md)), it's more natural to classify a use case under one of these business-facing categories — each maps onto one or more of the technical outcome categories above:
+
+| Business category | What it means to a stakeholder | Maps to (Outcome Taxonomy) | Example use cases |
+|---|---|---|---|
+| **Efficiency** | The same output for less cost or time — doing the existing work more cheaply | Cost Avoided, Time Saved | [Invoice Processing & 3-Way Match](../05-use-cases/invoice-processing-3way-match-agent.md), [Expense Audit Agent](../05-use-cases/expense-audit-agent.md) |
+| **Productivity** | More output from the same people — not cheaper, but more throughput per person | Time Saved (reallocated, not eliminated), Coverage & Consistency Improved | [Self-Service Analytics & Insight Drafting](../05-use-cases/self-service-analytics-insight-agent.md), [Literature Review & Research Synthesis](../05-use-cases/literature-review-research-synthesis-agent.md) |
+| **Revenue Growth** | Top-line impact — new revenue, retained revenue, or faster revenue realization | Revenue Influenced | [Subscription Renewal & Usage Review](../05-use-cases/subscription-renewal-usage-review-agent.md), [Proposal & Quote Generation](../05-use-cases/proposal-quote-generation-agent.md) |
+| **Risk & Compliance** | Reduced exposure to a regulatory, financial, safety, or reputational bad outcome | Risk Reduced, Coverage & Consistency Improved | [Trade Surveillance & Market Abuse Detection](../05-use-cases/trade-surveillance-market-abuse-agent.md), [Visual Safety & Asset Inspection](../05-use-cases/visual-safety-asset-inspection-agent.md), [KYC Document Review](../05-use-cases/kyc-account-opening-review-agent.md) |
+| **Customer/Employee Experience** | Faster, more consistent, or less frustrating interactions for the person on the receiving end | Time Saved, Coverage & Consistency Improved | [Tier-1 Support Resolution](../05-use-cases/tier1-support-resolution-agent.md), [Hotel Service Recovery](../05-use-cases/hotel-service-recovery-agent.md) |
+
+**Efficiency vs. Productivity, precisely:** these two get conflated often enough to be worth separating explicitly. Efficiency means the *same* work costs less (headcount or hours genuinely reduced). Productivity means the *same* people produce *more* (hours are reallocated to higher-value work, not cut). A use case's Autonomy → Outcome Mapping table usually reveals which one it actually is: if the human role at the target autonomy level disappears, that's efficiency; if it shifts to reviewing exceptions or doing higher-judgment work, that's productivity. Don't claim both without being specific about which resource is actually freed and what happens to it.
+
+A use case can span more than one business category (Trade Surveillance is both Risk & Compliance and, secondarily, Productivity for the analyst) — but pick a primary one for classification, the same discipline as the Capability tag.
+
+## Classifying the Catalog by Business Category
+
+This cross-cutting index is populated as use cases are tagged with their Outcome Categories — see each use case's header. As of this writing, tagging is complete for a representative subset (the use cases named in the table above); extending it across the full catalog in [05-use-cases](../05-use-cases/) is ongoing — see [CONTRIBUTING.md](../CONTRIBUTING.md) if a use case you're using isn't yet classified.
+
 ## Capability × Outcome Is Not a Fixed Mapping
 
 A capability doesn't guarantee an outcome — the same capability can target different outcomes depending on what's automated. Continuous Monitoring & Flagging can target **Risk Reduced** (Trade Surveillance) or **Cost Avoided** (Predictive Maintenance) depending on what's being monitored and why. This is why each use case states its own outcome mapping explicitly (see the Autonomy → Outcome table in the [use case template](../templates/use-case-template.md)) rather than inheriting one from its capability alone.
@@ -59,4 +79,4 @@ Each use case now states, in addition to Function and Domain:
 ---
 
 **Previous:** [The Agentic Automation Spectrum](agentic-automation-spectrum.md)
-**Next:** [Use-Case Anatomy](use-case-anatomy.md)
+**Next:** [Discovering Use Cases](discovering-use-cases.md)

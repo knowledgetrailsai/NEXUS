@@ -26,6 +26,7 @@ New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repo
 - [Principles](01-foundations/principles.md)
 - [The Agentic Automation Spectrum (L1–L4)](01-foundations/agentic-automation-spectrum.md)
 - [Capabilities & Outcomes](01-foundations/capabilities-and-outcomes.md) — the capability taxonomy and outcome categories every use case is tagged against
+- [Discovering Use Cases](01-foundations/discovering-use-cases.md) — process analysis, workshops, shadowing, and other discovery methods, aligned to OASIS Phase 1
 - [Use-Case Anatomy](01-foundations/use-case-anatomy.md) — how to turn an idea into a bounded workflow
 - [Evaluation & Rollout](01-foundations/evaluation-and-rollout.md) — test layers, launch gates, and autonomy progression
 

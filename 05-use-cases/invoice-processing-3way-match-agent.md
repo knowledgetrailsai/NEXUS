@@ -7,6 +7,7 @@
 **Also Applicable To:** All domains with meaningful PO-based purchasing volume
 **Capability:** Extraction & Structured Validation (secondary: Classification & Routing, for exceptions)
 **Outcome Categories:** Time Saved, Cost Avoided, Coverage & Consistency Improved
+**Business Outcome Category:** Efficiency
 
 ## Who This Is For
 

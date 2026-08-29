@@ -7,6 +7,7 @@
 **Also Applicable To:** [domains where this is Adaptable/Applies generically]
 **Capability:** [primary capability from the Capability Taxonomy — Extraction & Structured Validation / Classification & Routing / Synthesis & Drafting / Forecasting & Pattern Detection / Continuous Monitoring & Flagging / Scheduling & Constrained Optimization / Conversational Resolution / Visual Perception & Inspection] (+ secondary capability if genuinely present)
 **Outcome Categories:** [2-3 from: Cost Avoided / Revenue Influenced / Time Saved / Risk Reduced / Coverage & Consistency Improved — see [Capabilities & Outcomes](../01-foundations/capabilities-and-outcomes.md)]
+**Business Outcome Category:** [primary from: Efficiency / Productivity / Revenue Growth / Risk & Compliance / Customer & Employee Experience — see [Business Outcome Categories](../01-foundations/capabilities-and-outcomes.md#business-outcome-categories)]
 
 ## Who This Is For
 

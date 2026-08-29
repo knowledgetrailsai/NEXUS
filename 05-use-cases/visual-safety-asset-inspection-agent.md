@@ -6,6 +6,7 @@
 **Primary Function:** [Risk & Internal Audit](../02-functions/risk-internal-audit.md)
 **Capability:** Visual Perception & Inspection (secondary: Continuous Monitoring & Flagging)
 **Outcome Categories:** Risk Reduced, Cost Avoided, Coverage & Consistency Improved
+**Business Outcome Category:** Risk & Compliance
 
 ## Who This Is For
 
