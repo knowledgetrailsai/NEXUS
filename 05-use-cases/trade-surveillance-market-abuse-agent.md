@@ -4,6 +4,8 @@
 
 **Exclusive domain:** [Capital Markets & Investment Banking](../03-domains/capital-markets-investment-banking.md)
 **Primary Function:** [Risk & Internal Audit](../02-functions/risk-internal-audit.md)
+**Capability:** Continuous Monitoring & Flagging (secondary: Synthesis & Drafting, for the case file itself)
+**Outcome Categories:** Risk Reduced, Time Saved, Coverage & Consistency Improved
 
 ## Who This Is For
 
@@ -19,6 +21,27 @@ Rules-based surveillance systems generate a high volume of alerts, most of which
 
 When a surveillance rule fires, the agent assembles the relevant trading history, market context (price/volume movement around the event), and any other alerts involving the same trader or instrument, and produces a structured case file summarizing the pattern with full evidence citations — routing it to a surveillance analyst for disposition. The agent never clears or escalates a case itself.
 
+## Benefits
+
+- **For the surveillance analyst:** starts every review with a complete, cited case file instead of spending the first hour pulling trading history and market context by hand — more time for the actual judgment call.
+- **For the business:** the same analyst headcount covers more of the alert queue at similar quality, directly addressing the usual constraint (analyst time, not analyst skill).
+- **For compliance leadership:** a more complete and timely review of every fired alert, with a defensible evidence trail behind every case regardless of its eventual disposition.
+
+## Agentic Design
+
+- **Inputs read:** the fired alert (trader ID, instrument, time window), order/trade history for that trader and instrument, market data around the event window, and prior alert history for the same trader/instrument.
+- **Reasoning steps:** retrieve trading history and market context for the alert window → check for related prior alerts on the same trader/instrument → assemble the pattern into a structured narrative with evidence citations → flag any data gap explicitly rather than presenting an incomplete picture as conclusive.
+- **Tools/actions available:** read-only APIs to the order/trade management system, market data feed, and alert history; a write action limited to submitting the completed case file to the analyst queue.
+- **Output produced:** a structured, evidence-cited case file — never a disposition (clear/escalate) decision.
+
+## Multi-Agent Design (where relevant)
+
+This use case is a reasonable candidate for a multi-agent split at scale, because the evidence sources are genuinely heterogeneous and benefit from separate specialized reasoning before a single synthesis step:
+
+- **Why multiple agents:** trading-history analysis, market-context analysis, and (where in scope) communications-metadata review each require different data handling and domain logic; combining them in one agent's reasoning risks one source's noise drowning out another's signal.
+- **Role decomposition:** a **trading-pattern agent** analyzes order/trade history for the alert window; a **market-context agent** analyzes price/volume movement independently; a **synthesis agent** reconciles both (plus prior alert history) into the final case file, explicitly noting where the sub-agents' findings agree, conflict, or leave a gap.
+- **Coordination/failure handling:** the synthesis agent must surface disagreement between sub-agents rather than silently picking one — e.g., if the trading-pattern agent flags a signal the market-context agent doesn't corroborate, the case file states both findings rather than resolving the conflict itself. Any sub-agent failure (data source unavailable) is reflected as an explicit gap in the final case file, not silently omitted.
+
 ## Workflow Boundary
 
 **Trigger and inputs:** A fired surveillance rule/alert from the existing rules engine; trader ID, instrument, and time window.
@@ -33,7 +56,14 @@ When a surveillance rule fires, the agent assembles the relevant trading history
 
 **Out of scope:** Case disposition, regulatory reporting decisions, and any action on a trader's account or trading privileges.
 
-## Automation Maturity
+## Autonomy → Outcome Mapping
+
+| Level | What the agent does | Human role | Outcome realized |
+|---|---|---|---|
+| L1 (assist) | Retrieves raw trading/market data on request | Analyst assembles and writes the case narrative themselves | Faster lookups only; assembly labor mostly unchanged |
+| L2 (automate, reviewed) | Assembles a complete, cited case file for every fired alert | Analyst reviews and disposes of every case | Full alert-backlog coverage at faster review speed; disposition quality depends on evidence completeness, which improves |
+| L3 (automate, exception-routed) | Not a target for this use case | N/A | Disposition automation is not pursued regardless of maturity — see Why this range below |
+| L4 (autonomous, monitored) | Not a target for this use case | N/A | Same as above |
 
 - **Realistic starting level:** L2 — agent assembles and synthesizes every fired alert into a case file, analyst disposes of every case
 - **Potential ceiling:** L2, as a near-permanent posture — case disposition is a regulatory and legal judgment that should not be automated regardless of pattern-matching maturity; the achievable gain is in evidence-assembly speed and completeness, not disposition autonomy

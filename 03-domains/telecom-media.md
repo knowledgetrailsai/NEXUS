@@ -13,7 +13,13 @@ Very high customer volume with subscription/contract dynamics similar to SaaS, p
 | [Customer Relations & Support](../02-functions/customer-relations-support.md) | Core | Very high ticket volume, well-structured resolution paths |
 | [Marketing](../02-functions/marketing.md) | Core | Content and media are the product, not just promotion |
 | [Supply Chain & Operations](../02-functions/supply-chain-operations.md) | Adaptable | Network/field operations logistics |
+| [Data & Analytics](../02-functions/data-analytics.md) | Adaptable | Network capacity planning and congestion forecasting |
 | [Sales](../02-functions/sales.md) | Applies generically | Often B2B channel/wholesale context |
+
+## Domain-Exclusive Opportunities
+
+- [Content Rights & Licensing Compliance Agent](../05-use-cases/content-rights-licensing-compliance-agent.md)
+- [Network Capacity Planning & Congestion Forecasting Agent](../05-use-cases/network-capacity-planning-agent.md)
 
 ## Regulatory Considerations
 

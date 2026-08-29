@@ -11,9 +11,15 @@ Document- and rules-heavy by nature (policies, claims, underwriting guidelines),
 | Function | Relevance | Notes |
 |---|---|---|
 | [Claims Management](../02-functions/claims-management.md) | Core | This domain's flagship function — see note below |
+| [Data & Analytics](../02-functions/data-analytics.md) | Core | Underwriting risk-data assembly |
 | [Customer Relations & Support](../02-functions/customer-relations-support.md) | Core | High ticket volume around policy and claims questions |
 | [Legal & Compliance](../02-functions/legal-compliance.md) | Core | High contract volume, heavy regulatory overlay |
 | [Sales](../02-functions/sales.md) | Adaptable | Suitability/disclosure rules constrain outreach |
+
+## Domain-Exclusive Opportunities
+
+- [Claims Intake & Triage Agent](../05-use-cases/claims-intake-triage-agent.md)
+- [Underwriting Risk Data Assembly Agent](../05-use-cases/underwriting-risk-data-assembly-agent.md)
 
 ## Claims Processing — A Domain-Specific Note
 

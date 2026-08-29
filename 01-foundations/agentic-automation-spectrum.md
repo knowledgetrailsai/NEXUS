@@ -37,4 +37,4 @@ AI operates within pre-approved policy bounds without per-task human approval, m
 ---
 
 **Previous:** [Principles](principles.md)
-**Next section:** [02-functions](../02-functions/purchasing-procurement.md)
+**Next:** [Capabilities & Outcomes](capabilities-and-outcomes.md)

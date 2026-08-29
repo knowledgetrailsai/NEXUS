@@ -8,14 +8,13 @@ Forecasting, replenishment, and logistics coordination are data-rich, pattern-ba
 
 **Scope note:** this function covers the physical flow of goods and materials — forecasting, replenishment, logistics, and warehouse/distribution coordination. Field service dispatch and asset maintenance scheduling belong to [Operations & Resource Scheduling](operations-resource-scheduling.md); product/process quality issues belong to [Quality Management](quality-management.md); insurance claims belong to [Claims Management](claims-management.md) — each is a distinct business function with its own systems, professionals, and stakes, not a variant of supply chain.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Demand forecasting and replenishment recommendations | L2 → L3 | [Demand Forecasting & Replenishment Agent](../05-use-cases/demand-forecasting-replenishment-agent.md) |
-| Logistics exception monitoring and rerouting suggestions | L1 → L2 | Not yet detailed |
-| Supplier delivery performance tracking | L1 → L2 | Closely related to [Purchasing & Procurement: Supplier Risk Monitoring](purchasing-procurement.md) |
-| Warehouse and distribution exception handling | L2 → L3 | Not yet detailed |
+| [Demand Forecasting & Replenishment Agent](../05-use-cases/demand-forecasting-replenishment-agent.md) | Forecasting & Pattern Detection | L2 → L3 |
+
+Other credible patterns (logistics exception rerouting, warehouse/distribution exception handling) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md). Supplier delivery performance tracking is closely related to [Purchasing & Procurement: Supplier Risk Monitoring](purchasing-procurement.md).
 
 ## Domain Applicability
 

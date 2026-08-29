@@ -12,14 +12,17 @@ A surprising range of business problems reduce to the same shape: allocate a lim
 
 **For technical readers:** this typically means integration with the domain's scheduling/work-management system of record (course timetabling system, field service management platform, CMMS/EAM), a documented constraint set (hard constraints that can never be violated, soft constraints that are optimized), and a proposal-and-approval workflow rather than direct write access to the published schedule.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Field technician scheduling and dispatch | L2 → L3 | [Field Work Order Dispatch Agent](../05-use-cases/field-work-order-dispatch-agent.md) |
-| Academic/room/resource timetable conflict resolution | L2 → L3 | [Course Scheduling Conflict Agent](../05-use-cases/course-scheduling-conflict-agent.md) |
-| Asset maintenance scheduling from condition data | L1 → L2 | [Predictive Maintenance & Asset Health Agent](../05-use-cases/predictive-maintenance-asset-health-agent.md) |
-| Outage/incident response resource coordination | L2 → L3 | Related pattern: see [Outage Communication & Restoration Agent](../05-use-cases/outage-communication-restoration-agent.md) |
+| [Field Work Order Dispatch Agent](../05-use-cases/field-work-order-dispatch-agent.md) | Scheduling & Constrained Optimization | L2 → L3 |
+| [Course Scheduling Conflict Agent](../05-use-cases/course-scheduling-conflict-agent.md) | Scheduling & Constrained Optimization | L2 → L3 |
+| [Predictive Maintenance & Asset Health Agent](../05-use-cases/predictive-maintenance-asset-health-agent.md) | Forecasting & Pattern Detection | L1 |
+| [Patient Appointment Scheduling & Referral Coordination Agent](../05-use-cases/patient-scheduling-referral-coordination-agent.md) | Scheduling & Constrained Optimization | L2 → L3 |
+| [Production Scheduling & Changeover Optimization Agent](../05-use-cases/production-scheduling-changeover-agent.md) | Scheduling & Constrained Optimization | L1 → L2 |
+
+Outage/incident-response resource coordination is a related pattern — see [Outage Communication & Restoration Agent](../05-use-cases/outage-communication-restoration-agent.md), primarily filed under Customer Relations & Support.
 
 ## Domain Applicability
 

@@ -14,7 +14,13 @@ High transaction volume, thin margins, and strong seasonality make this domain o
 | [Purchasing & Procurement](../02-functions/purchasing-procurement.md) | Core | High SKU count, seasonal supplier volume swings |
 | [Customer Relations & Support](../02-functions/customer-relations-support.md) | Core | Very high ticket volume |
 | [Marketing](../02-functions/marketing.md) | Core | High content volume, fast iteration |
+| [Data & Analytics](../02-functions/data-analytics.md) | Core | Markdown and promotional pricing analysis |
 | [Finance & Accounting](../02-functions/finance-accounting.md) | Core | High transaction volume, PO-driven |
+
+## Domain-Exclusive Opportunities
+
+- [Returns & Refund Adjudication Agent](../05-use-cases/returns-refund-adjudication-agent.md)
+- [Markdown & Promotional Pricing Recommendation Agent](../05-use-cases/markdown-pricing-recommendation-agent.md)
 
 ## Regulatory Considerations
 

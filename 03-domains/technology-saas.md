@@ -16,6 +16,11 @@ Typically the most agentic-AI-mature domain — high-velocity, data-rich systems
 | [Legal & Compliance](../02-functions/legal-compliance.md) | Core | High volume of vendor/customer paper |
 | [Finance & Accounting](../02-functions/finance-accounting.md) | Core | Subscription billing and revenue recognition variants |
 
+## Domain-Exclusive Opportunities
+
+- [Subscription Renewal & Usage Review Agent](../05-use-cases/subscription-renewal-usage-review-agent.md)
+- [Incident Postmortem & Reliability Reporting Agent](../05-use-cases/incident-postmortem-reliability-agent.md)
+
 ## Regulatory Considerations
 
 Generally lighter regulatory load than financial services or healthcare, though data privacy regulation (varies by jurisdiction and customer base) applies broadly across functions here.

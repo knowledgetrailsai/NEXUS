@@ -12,14 +12,13 @@ Quality management runs on documented standards (defect taxonomies, severity cri
 
 **For technical readers:** this typically means integration with QMS/non-conformance systems, a documented defect taxonomy and severity-rules library the agent applies rather than infers, and historical non-conformance/CAPA data for pattern-matching against recurring issues — with root-cause determination and CAPA sign-off staying strictly human-owned.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Non-conformance classification, routing, and CAPA tracking | L2 → L3 | [Quality Non-Conformance & CAPA Routing Agent](../05-use-cases/quality-nonconformance-capa-agent.md) |
-| Inspection finding aggregation and trend detection | L1 → L2 | Not yet detailed |
-| Supplier quality scorecard synthesis | L1 → L2 | Closely related to [Purchasing & Procurement: Supplier Risk Monitoring](purchasing-procurement.md) |
-| Customer complaint-to-defect linkage | L2 | Not yet detailed |
+| [Quality Non-Conformance & CAPA Routing Agent](../05-use-cases/quality-nonconformance-capa-agent.md) | Classification & Routing | L2 → L3 |
+
+Other credible patterns (inspection-finding trend detection, supplier quality scorecards, complaint-to-defect linkage) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Domain Applicability
 

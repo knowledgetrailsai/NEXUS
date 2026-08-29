@@ -24,6 +24,7 @@ Distinct from [Telecom & Media](telecom-media.md) (content distribution and netw
 ## Domain-Exclusive Opportunities
 
 - [Media Buy Reconciliation & Discrepancy Resolution Agent](../05-use-cases/media-buy-reconciliation-agent.md)
+- [Creative & Ad Policy Compliance Review Agent](../05-use-cases/creative-ad-policy-compliance-agent.md)
 
 ## Regulatory Considerations
 

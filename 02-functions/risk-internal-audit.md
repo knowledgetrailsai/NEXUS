@@ -12,14 +12,15 @@ Internal audit and controls testing today are largely sample-based, because exha
 
 **For technical readers:** this typically means read-only access to transaction systems and the documented control library, a rules engine that encodes each control test precisely (not an inferred approximation of it), and an evidence trail that links every pass/fail result back to the specific transaction and control version tested.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Continuous controls testing across full transaction populations | L2 → L3 | [Continuous Controls Testing Agent](../05-use-cases/continuous-controls-testing-agent.md) |
-| Risk register monitoring and emerging-risk flagging | L1 → L2 | Not yet detailed |
-| Audit workpaper drafting from testing results | L1 → L2 | Not yet detailed |
-| Regulatory change impact assessment | L1 → L2 | Closely related to [Legal & Compliance](legal-compliance.md) regulatory monitoring pattern |
+| [Continuous Controls Testing Agent](../05-use-cases/continuous-controls-testing-agent.md) | Continuous Monitoring & Flagging | L2 → L3 |
+| [Trade Surveillance & Market Abuse Detection Agent](../05-use-cases/trade-surveillance-market-abuse-agent.md) | Continuous Monitoring & Flagging | L2 |
+| [Visual Safety & Asset Inspection Agent](../05-use-cases/visual-safety-asset-inspection-agent.md) | Visual Perception & Inspection | L1 → L2 |
+
+Other credible patterns (risk register monitoring, audit workpaper drafting, regulatory change impact assessment) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Domain Applicability
 

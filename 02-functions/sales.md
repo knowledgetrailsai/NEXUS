@@ -6,15 +6,15 @@
 
 Sales workflows are repetitive at the top of the funnel (research, outreach, qualification) and document-heavy in the middle (proposals, quotes) — both strong agentic fits — while final negotiation and closing remain firmly human-judgment territory.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Prospect research and personalized outreach drafting | L1 → L2 | [Sales Development Rep (SDR) Agent](../05-use-cases/sales-development-rep-agent.md) |
-| Proposal and quote generation from deal parameters | L2 → L3 | [Proposal & Quote Generation Agent](../05-use-cases/proposal-quote-generation-agent.md) |
-| Lead scoring and pipeline prioritization | L2 | Not yet detailed |
-| Meeting notes, CRM update, and follow-up drafting | L2 | Not yet detailed |
-| Renewal and expansion opportunity flagging | L1 → L2 | Closely related to [Customer Relations: Churn Prevention](customer-relations-support.md) |
+| [Sales Development Rep (SDR) Agent](../05-use-cases/sales-development-rep-agent.md) | Synthesis & Drafting | L1 → L2 |
+| [Proposal & Quote Generation Agent](../05-use-cases/proposal-quote-generation-agent.md) | Extraction & Structured Validation | L2 → L3 |
+| [Subscription Renewal & Usage Review Agent](../05-use-cases/subscription-renewal-usage-review-agent.md) | Forecasting & Pattern Detection | L1 → L2 |
+
+Other credible patterns (lead scoring, meeting-notes/CRM drafting) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Domain Applicability
 

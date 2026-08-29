@@ -24,6 +24,7 @@ Distinct from [Healthcare & Life Sciences](healthcare.md), which covers clinical
 ## Domain-Exclusive Opportunities
 
 - [Literature Review & Research Synthesis Agent](../05-use-cases/literature-review-research-synthesis-agent.md)
+- [Experiment Data Quality & Reproducibility Check Agent](../05-use-cases/experiment-data-quality-reproducibility-agent.md)
 
 ## Regulatory and Safety Considerations
 

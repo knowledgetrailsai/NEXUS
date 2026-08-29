@@ -6,15 +6,14 @@
 
 Procurement is document-heavy, rule-bound, and high-volume — three traits that make it consistently one of the earliest and highest-ROI targets for agentic automation across nearly every industry.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Requisition intake and approval routing | L2 → L3 | [Purchase Requisition & Approval Agent](../05-use-cases/purchasing-requisition-approval-agent.md) |
-| Supplier risk and performance monitoring | L1 → L2 | [Supplier Risk Monitoring Agent](../05-use-cases/supplier-risk-monitoring-agent.md) |
-| Contract term extraction and comparison against playbook | L1 → L2 | See [Legal & Compliance: Contract Review](legal-compliance.md) — closely related pattern |
-| Spend classification and budget reconciliation | L2 → L3 | Not yet detailed — see [CONTRIBUTING.md](../CONTRIBUTING.md) |
-| RFP/RFQ response drafting and comparison | L1 → L2 | Not yet detailed |
+| [Purchase Requisition & Approval Agent](../05-use-cases/purchasing-requisition-approval-agent.md) | Classification & Routing | L2 → L3 |
+| [Supplier Risk Monitoring Agent](../05-use-cases/supplier-risk-monitoring-agent.md) | Continuous Monitoring & Flagging | L1 → L2 |
+
+Other credible patterns (spend classification/budget reconciliation, RFP/RFQ response drafting) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md). Contract-term extraction is closely related to [Legal & Compliance: Contract Review](legal-compliance.md).
 
 ## Domain Applicability
 

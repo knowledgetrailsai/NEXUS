@@ -25,6 +25,7 @@ New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repo
 - [What Is This Repository](01-foundations/what-is-this-repository.md)
 - [Principles](01-foundations/principles.md)
 - [The Agentic Automation Spectrum (L1–L4)](01-foundations/agentic-automation-spectrum.md)
+- [Capabilities & Outcomes](01-foundations/capabilities-and-outcomes.md) — the capability taxonomy and outcome categories every use case is tagged against
 - [Use-Case Anatomy](01-foundations/use-case-anatomy.md) — how to turn an idea into a bounded workflow
 - [Evaluation & Rollout](01-foundations/evaluation-and-rollout.md) — test layers, launch gates, and autonomy progression
 
@@ -67,7 +68,7 @@ New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repo
 - [Prioritization Framework](04-grid/prioritization-framework.md)
 
 ### 05 · Use Cases
-34 detailed entries spanning the common function patterns plus domain-exclusive workflows — see [05-use-cases/](05-use-cases/) for the full list. Domain-exclusive entries are intentionally not forced into the general grid. Newer entries also carry a "Who This Is For" section (plain-language / business / technical summaries) and a KPIs Influenced section — see the [use case template](templates/use-case-template.md).
+46 detailed entries spanning the common function patterns plus domain-exclusive workflows — see [05-use-cases/](05-use-cases/) for the full list. Domain-exclusive entries are intentionally not forced into the general grid. Newer entries also carry a "Who This Is For" section (plain-language / business / technical summaries) and a KPIs Influenced section — see the [use case template](templates/use-case-template.md).
 
 ### Glossary & Templates
 - [Glossary](glossary/glossary.md)

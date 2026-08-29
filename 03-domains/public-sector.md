@@ -15,6 +15,11 @@ Statutory constraints often reduce agent discretion more than in any other domai
 | [HR & People](../02-functions/hr-people.md) | Adaptable | Credentialing and civil-service process requirements |
 | [Legal & Compliance](../02-functions/legal-compliance.md) | Adaptable | Statutory and regulatory constraints reduce agent discretion further |
 
+## Domain-Exclusive Opportunities
+
+- [Constituent Service Request Routing Agent](../05-use-cases/constituent-service-request-agent.md)
+- [Benefits Eligibility Document Verification Agent](../05-use-cases/benefits-eligibility-document-verification-agent.md)
+
 ## Regulatory Considerations
 
 Verify applicable public-records, transparency, and procurement law before any automation — statutory requirements in this domain often mandate specific human-decision points that cannot be automated regardless of technical feasibility.

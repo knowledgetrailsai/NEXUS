@@ -16,6 +16,11 @@ High regulatory intensity, strong existing straight-through-processing infrastru
 | [Sales](../02-functions/sales.md) | Adaptable | Suitability/disclosure rules constrain personalization |
 | [IT & Security](../02-functions/it-security.md) | Adaptable | Elevated security posture expected |
 
+## Domain-Exclusive Opportunities
+
+- [KYC Document Review & Account Opening Agent](../05-use-cases/kyc-account-opening-review-agent.md)
+- [Loan Underwriting Document Assembly Agent](../05-use-cases/loan-underwriting-document-assembly-agent.md)
+
 ## Regulatory Considerations
 
 Consult jurisdiction-specific financial regulation before deploying — see the companion [Responsible-AI: Financial Services sector guidance](https://github.com/knowledgetrailsai/Responsible-AI/blob/main/11-sector-specific-ai/financial-services.md) for the applicable regulatory landscape.

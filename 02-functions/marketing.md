@@ -6,14 +6,13 @@
 
 Content generation, personalization at scale, and spend allocation are all pattern-rich, data-driven tasks — strong agentic fits — while brand voice and campaign strategy remain human-led.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Campaign content generation and personalization | L1 → L2 | [Campaign Content & Personalization Agent](../05-use-cases/campaign-content-personalization-agent.md) |
-| Marketing spend / channel mix optimization | L2 | Not yet detailed |
-| Audience segmentation and targeting | L2 | Not yet detailed |
-| Competitive and market signal monitoring | L1 → L2 | Not yet detailed |
+| [Campaign Content & Personalization Agent](../05-use-cases/campaign-content-personalization-agent.md) | Synthesis & Drafting | L1 → L2 |
+
+Other credible patterns (spend/channel-mix optimization, audience segmentation, competitive signal monitoring) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Domain Applicability
 

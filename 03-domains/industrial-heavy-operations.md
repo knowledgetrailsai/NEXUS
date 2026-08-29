@@ -12,6 +12,8 @@ Distinct from the discrete-manufacturing patterns already covered in [Manufactur
 
 **For technical readers:** integration here typically means reading from asset/maintenance management systems (CMMS/EAM), historian or SCADA data exports (read-only, never write-path to control systems), inspection records, and permit/compliance documentation — with OT/IT network separation as a hard boundary that any agent design must respect from day one.
 
+**Applicable AI techniques beyond text-based agents:** this domain is one of the strongest fits in this repository for computer vision, not just document- and data-synthesis agents — fixed camera feeds, drone/inspection imagery, and periodic photo capture are common data sources for detecting visual safety hazards (PPE non-compliance, blocked egress) and asset-condition indicators (corrosion, leaks, structural anomalies) at a coverage level manual walkthroughs can't match. See [Visual Safety & Asset Inspection Agent](../05-use-cases/visual-safety-asset-inspection-agent.md).
+
 ## Most Relevant Functions
 
 | Function | Relevance | Notes |
@@ -26,6 +28,7 @@ Distinct from the discrete-manufacturing patterns already covered in [Manufactur
 ## Domain-Exclusive Opportunities
 
 - [Predictive Maintenance & Asset Health Agent](../05-use-cases/predictive-maintenance-asset-health-agent.md)
+- [Visual Safety & Asset Inspection Agent](../05-use-cases/visual-safety-asset-inspection-agent.md)
 
 ## Regulatory and Safety Considerations
 

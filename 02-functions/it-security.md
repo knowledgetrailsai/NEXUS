@@ -6,14 +6,14 @@
 
 Well-structured tickets, log data, and known remediation runbooks make IT operations a strong agentic fit — but security specifically requires proportionally higher evaluation rigor given the cost of a wrong autonomous action.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Tier-1 IT helpdesk resolution | L2 → L3 | [IT Helpdesk Tier-1 Agent](../05-use-cases/it-helpdesk-tier1-agent.md) |
-| Security alert triage and prioritization | L1 → L2 | Not yet detailed — see risk note below |
-| Access request review and provisioning | L2 | Not yet detailed |
-| Incident summarization and runbook suggestion | L1 → L2 | Related pattern: see the companion [Responsible-AI incident-response guidance](https://github.com/knowledgetrailsai/Responsible-AI) |
+| [IT Helpdesk Tier-1 Agent](../05-use-cases/it-helpdesk-tier1-agent.md) | Conversational Resolution | L2 → L3 |
+| [Incident Postmortem & Reliability Reporting Agent](../05-use-cases/incident-postmortem-reliability-agent.md) | Synthesis & Drafting | L1 → L2 |
+
+Other credible patterns (security alert triage, access provisioning, incident-summary drafting) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md) and the companion [Responsible-AI incident-response guidance](https://github.com/knowledgetrailsai/Responsible-AI).
 
 ## Domain Applicability
 

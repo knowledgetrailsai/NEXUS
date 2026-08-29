@@ -6,15 +6,16 @@
 
 High volume, well-documented resolution paths, and a clear success signal (resolved without escalation) make support one of the most mature and widely deployed agentic AI functions today — see the fully worked [oasis-fulcrum case study](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/10-case-studies/customer-support-agent.md) built on this exact pattern.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Tier-1 ticket resolution (billing, account, order status) | L2 → L3 | [Tier-1 Support Resolution Agent](../05-use-cases/tier1-support-resolution-agent.md) |
-| Proactive churn risk detection and intervention | L1 → L2 | [Churn Prevention Agent](../05-use-cases/churn-prevention-agent.md) |
-| Sentiment monitoring and escalation flagging | L1 → L2 | Not yet detailed |
-| Post-interaction summarization and CRM logging | L2 | Not yet detailed |
-| Complaint/dispute triage and routing | L2 → L3 | Not yet detailed |
+| [Tier-1 Support Resolution Agent](../05-use-cases/tier1-support-resolution-agent.md) | Classification & Routing | L2 → L3 |
+| [Churn Prevention Agent](../05-use-cases/churn-prevention-agent.md) | Forecasting & Pattern Detection | L1 → L2 |
+| [Student Services Case Routing Agent](../05-use-cases/student-services-case-routing-agent.md) | Classification & Routing | L2 → L3 |
+| [Constituent Service Request Routing Agent](../05-use-cases/constituent-service-request-agent.md) | Classification & Routing | L2 → L3 |
+
+Other credible patterns in this function (sentiment monitoring, post-interaction summarization, complaint triage) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md) to add one.
 
 ## Domain Applicability
 

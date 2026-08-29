@@ -6,14 +6,14 @@
 
 Recruiting and onboarding are high-volume, document- and workflow-heavy — but HR is also one of the highest-scrutiny functions for AI, given direct impact on individuals' livelihoods. Automation depth should generally stay conservative here relative to other functions.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Candidate screening and interview scheduling | L1 → L2 | [Candidate Screening & Scheduling Agent](../05-use-cases/candidate-screening-agent.md) |
-| Employee onboarding orchestration | L2 → L3 | [Employee Onboarding Agent](../05-use-cases/employee-onboarding-agent.md) |
-| Policy Q&A and benefits navigation | L1 → L2 | Not yet detailed |
-| Performance review drafting assistance | L1 | Not yet detailed |
+| [Candidate Screening & Scheduling Agent](../05-use-cases/candidate-screening-agent.md) | Classification & Routing | L1 → L2 |
+| [Employee Onboarding Agent](../05-use-cases/employee-onboarding-agent.md) | Scheduling & Constrained Optimization | L2 → L3 |
+
+Other credible patterns (benefits Q&A, performance-review drafting) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Domain Applicability
 

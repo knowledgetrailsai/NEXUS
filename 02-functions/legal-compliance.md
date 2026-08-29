@@ -6,14 +6,18 @@
 
 Contract and document review are pattern-rich and time-consuming — good agentic fits at the assist/automate level. Final legal judgment and sign-off remain human-owned in virtually every organization; this function should rarely, if ever, be pushed past L2 without explicit legal sign-off on the design itself.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Contract review and redline against playbook | L1 → L2 | [Contract Review & Redline Agent](../05-use-cases/contract-review-redline-agent.md) |
-| Regulatory change monitoring and impact flagging | L1 → L2 | Not yet detailed |
-| Policy Q&A and compliance guidance lookup | L1 | Not yet detailed |
-| NDA and standard-agreement fast-track review | L2 | Related pattern within [Contract Review](../05-use-cases/contract-review-redline-agent.md) |
+| [Contract Review & Redline Agent](../05-use-cases/contract-review-redline-agent.md) | Synthesis & Drafting | L1 → L2 |
+| [Content Rights & Licensing Compliance Agent](../05-use-cases/content-rights-licensing-compliance-agent.md) | Continuous Monitoring & Flagging | L2 → L3 |
+| [KYC Document Review & Account Opening Agent](../05-use-cases/kyc-account-opening-review-agent.md) | Extraction & Structured Validation | L2 → L3 |
+| [Benefits Eligibility Document Verification Agent](../05-use-cases/benefits-eligibility-document-verification-agent.md) | Extraction & Structured Validation | L2 → L3 |
+| [Research Report Disclosure Compliance Agent](../05-use-cases/research-report-disclosure-compliance-agent.md) | Continuous Monitoring & Flagging | L1 → L2 |
+| [Creative & Ad Policy Compliance Review Agent](../05-use-cases/creative-ad-policy-compliance-agent.md) | Continuous Monitoring & Flagging | L1 → L2 |
+
+Other credible patterns (regulatory change monitoring, compliance-guidance Q&A) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Domain Applicability
 

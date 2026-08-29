@@ -25,6 +25,7 @@ Distinct from the retail/commercial banking and insurance patterns already cover
 ## Domain-Exclusive Opportunities
 
 - [Trade Surveillance & Market Abuse Detection Agent](../05-use-cases/trade-surveillance-market-abuse-agent.md)
+- [Research Report Disclosure Compliance Agent](../05-use-cases/research-report-disclosure-compliance-agent.md)
 
 ## Regulatory Considerations
 

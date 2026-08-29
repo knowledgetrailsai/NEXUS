@@ -6,14 +6,14 @@
 
 Structured documents, deterministic validation rules, and clear ground truth (does the math reconcile) make finance one of the most tractable functions for agentic automation — and one of the best-suited to the [oasis-fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) cost/value density model, since outcomes are usually unambiguous.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Invoice processing and 3-way match | L2 → L3 | [Invoice Processing & 3-Way Match Agent](../05-use-cases/invoice-processing-3way-match-agent.md) |
-| Expense report audit and policy compliance | L2 → L3 | [Expense Audit Agent](../05-use-cases/expense-audit-agent.md) |
-| Financial close checklist and reconciliation support | L1 → L2 | Not yet detailed |
-| Forecast variance analysis and commentary drafting | L1 → L2 | Not yet detailed |
+| [Invoice Processing & 3-Way Match Agent](../05-use-cases/invoice-processing-3way-match-agent.md) | Extraction & Structured Validation | L2 → L3 |
+| [Expense Audit Agent](../05-use-cases/expense-audit-agent.md) | Continuous Monitoring & Flagging | L2 → L3 |
+
+Other credible patterns (financial close reconciliation support, forecast variance commentary) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Domain Applicability
 

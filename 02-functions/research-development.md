@@ -12,14 +12,13 @@ R&D work is bimodal: a large share of it (literature review, protocol drafting, 
 
 **For technical readers:** this typically means retrieval-augmented synthesis over literature databases and internal knowledge repositories with strict citation discipline, integration with electronic lab notebook (ELN) or lab information management system (LIMS) data for tabulation support, and drafting support for protocols and reports — never autonomous experimental design or result interpretation.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Literature review and research synthesis | L1 | [Literature Review & Research Synthesis Agent](../05-use-cases/literature-review-research-synthesis-agent.md) |
-| Experimental protocol drafting from a study template | L1 | Not yet detailed |
-| Results tabulation and first-pass data summarization | L1 → L2 | Not yet detailed |
-| Regulatory/IP submission document assembly | L1 | Closely related to [Legal & Compliance: Contract Review](legal-compliance.md) pattern |
+| [Literature Review & Research Synthesis Agent](../05-use-cases/literature-review-research-synthesis-agent.md) | Synthesis & Drafting | L1 |
+
+Other credible patterns (experimental protocol drafting, results tabulation, regulatory/IP submission assembly) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Domain Applicability
 

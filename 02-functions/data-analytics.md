@@ -12,14 +12,17 @@ Analysts spend a disproportionate share of their time on repeatable groundwork �
 
 **For technical readers:** this typically means an agent with read access to a data warehouse or BI semantic layer (never write access to source systems), a defined set of vetted metrics and their known caveats, and a drafting layer that produces a chart plus narrative — with every number traceable back to the query that produced it.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| Self-service query drafting and insight narrative generation | L1 → L2 | [Self-Service Analytics & Insight Drafting Agent](../05-use-cases/self-service-analytics-insight-agent.md) |
-| Data quality anomaly detection and flagging | L1 → L2 | Not yet detailed |
-| Recurring report generation and distribution | L2 → L3 | Not yet detailed |
-| Dashboard narrative summarization ("what changed and why") | L1 → L2 | Not yet detailed |
+| [Self-Service Analytics & Insight Drafting Agent](../05-use-cases/self-service-analytics-insight-agent.md) | Synthesis & Drafting | L1 → L2 |
+| [Underwriting Risk Data Assembly Agent](../05-use-cases/underwriting-risk-data-assembly-agent.md) | Extraction & Structured Validation | L1 → L2 |
+| [Markdown & Promotional Pricing Recommendation Agent](../05-use-cases/markdown-pricing-recommendation-agent.md) | Forecasting & Pattern Detection | L1 → L2 |
+| [Network Capacity Planning & Congestion Forecasting Agent](../05-use-cases/network-capacity-planning-agent.md) | Forecasting & Pattern Detection | L1 → L2 |
+| [Experiment Data Quality & Reproducibility Check Agent](../05-use-cases/experiment-data-quality-reproducibility-agent.md) | Continuous Monitoring & Flagging | L1 → L2 |
+
+Other credible patterns (data-quality anomaly detection, recurring report generation, dashboard narrative summarization) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Domain Applicability
 

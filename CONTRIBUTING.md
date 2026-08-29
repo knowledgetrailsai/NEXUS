@@ -12,9 +12,10 @@ This is a living catalog, released under MIT, mapping agentic AI automation oppo
 ## How to Contribute
 
 1. Fork the repository.
-2. New use case: copy [templates/use-case-template.md](templates/use-case-template.md) into `05-use-cases/`, fill it in, and link it from the relevant function file (`02-functions/`), domain file(s) (`03-domains/`), and the grid (`04-grid/opportunity-grid.md`).
-3. Changes to core structure (`01-foundations/`, `04-grid/`) — open an issue first.
-4. Update `INDEX.md` if you add or rename a file.
+2. New use case: copy [templates/use-case-template.md](templates/use-case-template.md) into `05-use-cases/`, fill it in — including its Capability tag from [Capabilities & Outcomes](01-foundations/capabilities-and-outcomes.md), Benefits, Agentic Design, and Autonomy → Outcome Mapping — and link it from the relevant function file (`02-functions/`), domain file(s) (`03-domains/`), and the grid (`04-grid/opportunity-grid.md`).
+3. **Don't add a "pattern" row without a use case.** A function file's "Use Cases in This Function" table lists only real, linked use cases. If a pattern is worth naming but not yet written up, put it in that section's trailing prose ("Other credible patterns... aren't yet written up"), not as a table row with "Not yet detailed" — patterns are use cases, not a separate, thinner abstraction.
+4. Changes to core structure (`01-foundations/`, `04-grid/`) — open an issue first.
+5. Update `INDEX.md` if you add or rename a file.
 
 ## Code of Conduct
 

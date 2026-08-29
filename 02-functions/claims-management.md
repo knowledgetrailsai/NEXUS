@@ -12,14 +12,13 @@ Claims management — intake, coverage verification, investigation, and adjudica
 
 **For technical readers:** this typically means integration with the policy administration system (coverage verification), claims management system (intake, status, documentation), and — for investigation support — external data sources (repair estimates, medical records where authorized, fraud-indicator databases) — with coverage and settlement decisions themselves requiring explicit, narrow policy bounds before any automation touches them.
 
-## Common Opportunity Patterns
+## Use Cases in This Function
 
-| Pattern | Typical starting level | Use case |
+| Use case | Capability | Typical starting level |
 |---|---|---|
-| First-notice-of-loss intake, coverage verification, and adjuster routing | L2 → L3 | [Claims Intake & Triage Agent](../05-use-cases/claims-intake-triage-agent.md) |
-| Claims documentation completeness review | L2 | Not yet detailed |
-| Settlement calculation support within policy limits | L1 → L2 | Not yet detailed — coverage/settlement decisions stay human-owned |
-| Fraud-indicator flagging on claims intake | L1 → L2 | Related pattern: see [Claims Intake & Triage Agent](../05-use-cases/claims-intake-triage-agent.md) |
+| [Claims Intake & Triage Agent](../05-use-cases/claims-intake-triage-agent.md) | Classification & Routing | L2 → L3 |
+
+Other credible patterns (documentation completeness review, settlement calculation support) aren't yet written up as full use cases — see [CONTRIBUTING.md](../CONTRIBUTING.md). Note that coverage/settlement decisions stay human-owned regardless.
 
 ## Domain Applicability
 
