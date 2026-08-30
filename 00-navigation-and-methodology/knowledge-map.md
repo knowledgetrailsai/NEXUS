@@ -10,10 +10,10 @@ This repository breaks agentic opportunity down along four dimensions, not one:
 DOMAIN (industry context) × FUNCTION (business owner) × CAPABILITY (mechanical pattern) → USE CASE → OUTCOME
 ```
 
-- **Domain** — the industry context: regulation, systems of record, risk tolerance, terminology. See [03-domains](../03-domains/).
-- **Function** — who owns the problem inside the business: Purchasing, Sales, Finance, Claims Management, and so on. The same function's problem shape recurs across industries. See [02-functions](../02-functions/).
+- **Domain** — the industry context: regulation, systems of record, risk tolerance, terminology. See [03-domains](../03-domains/advertising-media.md).
+- **Function** — who owns the problem inside the business: Purchasing, Sales, Finance, Claims Management, and so on. The same function's problem shape recurs across industries. See [02-functions](../02-functions/claims-management.md).
 - **Capability** — what the agent mechanically does, independent of function or domain: extraction and validation, classification and routing, forecasting, continuous monitoring, scheduling, synthesis, conversation, visual perception. See [Capabilities & Outcomes](../01-foundations/capabilities-and-outcomes.md).
-- **Use Case** — where a domain, a function, and a capability meet a real, bounded workflow. See [05-use-cases](../05-use-cases/).
+- **Use Case** — where a domain, a function, and a capability meet a real, bounded workflow. See [05-use-cases](../05-use-cases/benefits-eligibility-document-verification-agent.md).
 
 **A pattern is a use case, not a separate abstraction.** Earlier versions of this repository listed generic "opportunity patterns" inside function files, some linked to a detailed use case and some marked "not yet detailed." That's been retired: if a pattern is worth naming, it gets written up as a real use case with its own page; if it isn't yet, it isn't listed as a phantom row. Function files now link directly to the use cases that live under them.
 

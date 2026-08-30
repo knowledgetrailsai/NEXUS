@@ -4,7 +4,7 @@
 
 ## 1. Function first, domain second
 
-The same automation pattern (e.g., document review, triage, drafting, forecasting) recurs across industries. Describing it once at the function level, then noting domain variants, avoids nine near-duplicate descriptions of the same idea. See [02-functions](../02-functions/).
+The same automation pattern (e.g., document review, triage, drafting, forecasting) recurs across industries. Describing it once at the function level, then noting domain variants, avoids nine near-duplicate descriptions of the same idea. See [02-functions](../02-functions/claims-management.md).
 
 ## 2. Rate automation depth explicitly, don't assume "full autonomy"
 

@@ -117,4 +117,4 @@ _Name the risk in plain terms — full control design belongs in Responsible-AI.
 
 ---
 
-**Back to:** [05-use-cases](../05-use-cases/) · [Primary function](../02-functions/)
+**Back to:** [05-use-cases](../05-use-cases/benefits-eligibility-document-verification-agent.md) · [Primary function](../02-functions/claims-management.md)

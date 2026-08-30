@@ -2,7 +2,7 @@
 
 `Home › 01-foundations › Agentic Automation Spectrum`
 
-Every use case in [05-use-cases](../05-use-cases/) is rated against this four-level spectrum — both its **realistic starting level** and its **potential ceiling**. Skipping levels (going straight to autonomous) is usually a mistake; see [04-grid/prioritization-framework.md](../04-grid/prioritization-framework.md).
+Every use case in [05-use-cases](../05-use-cases/benefits-eligibility-document-verification-agent.md) is rated against this four-level spectrum — both its **realistic starting level** and its **potential ceiling**. Skipping levels (going straight to autonomous) is usually a mistake; see [04-grid/prioritization-framework.md](../04-grid/prioritization-framework.md).
 
 ## L1 — Assist (Co-Pilot)
 
@@ -30,7 +30,7 @@ AI operates within pre-approved policy bounds without per-task human approval, m
 
 ## Using This Scale
 
-- Every [use case entry](../05-use-cases/) states a **realistic starting level** (usually L1 or L2) and a **potential ceiling** (often L3, occasionally L4).
+- Every [use case entry](../05-use-cases/benefits-eligibility-document-verification-agent.md) states a **realistic starting level** (usually L1 or L2) and a **potential ceiling** (often L3, occasionally L4).
 - Moving up a level should follow the same lifecycle discipline as [OASIS](https://github.com/knowledgetrailsai/OASIS) — piloted, calibrated, and governed before scaling — not assumed at design time.
 - Higher levels demand proportionally more of the [Responsible-AI](https://github.com/knowledgetrailsai/Responsible-AI) evaluation and guardrail treatment, and more rigorous [oasis-fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) cost/value tracking — the "Shadow Tax of Evaluation" grows with autonomy.
 

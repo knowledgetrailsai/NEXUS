@@ -39,7 +39,7 @@ Since this is often the highest-leverage method and the easiest to run badly:
 
 Once a method above has produced a real candidate:
 
-1. Check whether it already resembles an entry in [05-use-cases](../05-use-cases/) — discovery often confirms a known pattern rather than finding something novel, which is fine and faster to scope.
+1. Check whether it already resembles an entry in [05-use-cases](../05-use-cases/benefits-eligibility-document-verification-agent.md) — discovery often confirms a known pattern rather than finding something novel, which is fine and faster to scope.
 2. If it's genuinely new, use [Use-Case Anatomy](use-case-anatomy.md) to turn the discovery notes into a bounded workflow description.
 3. Tag it with a [Capability](capabilities-and-outcomes.md) and [Outcome Category](capabilities-and-outcomes.md#business-outcome-categories) — this is also where you reconcile a bottom-up finding against a top-down priority: does this candidate's outcome category match what leadership said mattered?
 4. Run it through the [Prioritization Framework](../04-grid/prioritization-framework.md)'s screening score.

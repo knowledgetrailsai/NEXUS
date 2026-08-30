@@ -46,4 +46,4 @@ Once a use case is selected:
 ---
 
 **Previous:** [The Opportunity Grid](opportunity-grid.md)
-**Next section:** [05-use-cases](../05-use-cases/)
+**Next section:** [05-use-cases](../05-use-cases/benefits-eligibility-document-verification-agent.md)

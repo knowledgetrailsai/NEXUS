@@ -69,7 +69,7 @@ New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repo
 - [Prioritization Framework](04-grid/prioritization-framework.md)
 
 ### 05 · Use Cases
-46 detailed entries spanning the common function patterns plus domain-exclusive workflows — see [05-use-cases/](05-use-cases/) for the full list. Domain-exclusive entries are intentionally not forced into the general grid. Newer entries also carry a "Who This Is For" section (plain-language / business / technical summaries) and a KPIs Influenced section — see the [use case template](templates/use-case-template.md).
+46 detailed entries spanning the common function patterns plus domain-exclusive workflows — see [05-use-cases/](05-use-cases/benefits-eligibility-document-verification-agent.md) for the full list. Domain-exclusive entries are intentionally not forced into the general grid. Newer entries also carry a "Who This Is For" section (plain-language / business / technical summaries) and a KPIs Influenced section — see the [use case template](templates/use-case-template.md).
 
 ### Glossary & Templates
 - [Glossary](glossary/glossary.md)
@@ -80,8 +80,8 @@ Not sure where to look? See [INDEX.md](INDEX.md) for every file, or [00-navigati
 ## Quick Start
 
 1. Read [Principles](01-foundations/principles.md) and the [Agentic Automation Spectrum](01-foundations/agentic-automation-spectrum.md).
-2. Scan the [Opportunity Grid](04-grid/opportunity-grid.md) for your domain, or browse a [function](02-functions/) that interests you.
-3. Read the full [use case](05-use-cases/) entries for your top candidates, checking the workflow boundary and exception paths.
+2. Scan the [Opportunity Grid](04-grid/opportunity-grid.md) for your domain, or browse a [function](02-functions/claims-management.md) that interests you.
+3. Read the full [use case](05-use-cases/benefits-eligibility-document-verification-agent.md) entries for your top candidates, checking the workflow boundary and exception paths.
 4. Use the [Prioritization Framework](04-grid/prioritization-framework.md) to sequence candidates.
 5. Apply [Use-Case Anatomy](01-foundations/use-case-anatomy.md) and [Evaluation & Rollout](01-foundations/evaluation-and-rollout.md) to prepare a discovery brief.
 6. Move your top candidate into [OASIS](https://github.com/knowledgetrailsai/OASIS) Phase 1, formalize its value case with [oasis-fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum), and assess its risk with [Responsible-AI](https://github.com/knowledgetrailsai/Responsible-AI).

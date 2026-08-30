@@ -14,7 +14,7 @@ A use case is where all three meet a real workflow. There is no separate "patter
 
 ## The Capability Taxonomy
 
-Every use case in [05-use-cases](../05-use-cases/) is tagged with one primary capability from this list:
+Every use case in [05-use-cases](../05-use-cases/benefits-eligibility-document-verification-agent.md) is tagged with one primary capability from this list:
 
 | Capability | What it mechanically does | Representative use cases |
 |---|---|---|
@@ -61,7 +61,7 @@ A use case can span more than one business category (Trade Surveillance is both 
 
 ## Classifying the Catalog by Business Category
 
-This cross-cutting index is populated as use cases are tagged with their Outcome Categories — see each use case's header. As of this writing, tagging is complete for a representative subset (the use cases named in the table above); extending it across the full catalog in [05-use-cases](../05-use-cases/) is ongoing — see [CONTRIBUTING.md](../CONTRIBUTING.md) if a use case you're using isn't yet classified.
+This cross-cutting index is populated as use cases are tagged with their Outcome Categories — see each use case's header. As of this writing, tagging is complete for a representative subset (the use cases named in the table above); extending it across the full catalog in [05-use-cases](../05-use-cases/benefits-eligibility-document-verification-agent.md) is ongoing — see [CONTRIBUTING.md](../CONTRIBUTING.md) if a use case you're using isn't yet classified.
 
 ## Capability × Outcome Is Not a Fixed Mapping
 

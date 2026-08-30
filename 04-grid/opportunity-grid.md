@@ -27,7 +27,7 @@ Function × domain, at a glance. **Core** = well-evidenced pattern, often with a
 
 ## How to Read a Cell
 
-Every cell links back to its function file (row) and domain file (column), both of which link forward to any detailed [use case](../05-use-cases/) that exists for that intersection. "Applies" and "Limited" cells without a named use case are gaps in this catalog, not gaps in reality — see [CONTRIBUTING.md](../CONTRIBUTING.md).
+Every cell links back to its function file (row) and domain file (column), both of which link forward to any detailed [use case](../05-use-cases/benefits-eligibility-document-verification-agent.md) that exists for that intersection. "Applies" and "Limited" cells without a named use case are gaps in this catalog, not gaps in reality — see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Using the Grid
 
