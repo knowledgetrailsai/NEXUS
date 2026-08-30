@@ -86,15 +86,19 @@ Not sure where to look? See [INDEX.md](INDEX.md) for every file, or [00-navigati
 5. Apply [Use-Case Anatomy](01-foundations/use-case-anatomy.md) and [Evaluation & Rollout](01-foundations/evaluation-and-rollout.md) to prepare a discovery brief.
 6. Move your top candidate into [OASIS](https://github.com/knowledgetrailsai/OASIS) Phase 1, formalize its value case with [oasis-fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum), and assess its risk with [Responsible-AI](https://github.com/knowledgetrailsai/Responsible-AI).
 
-## Related Work
+## Relationship to companion repositories
 
-This repository is one of three companion methodologies:
+Nexus is the cross-cutting opportunity catalog feeding [OASIS](https://github.com/knowledgetrailsai/OASIS) Chapter 5 (Opportunity Portfolio and Transformation Horizons) — it is not itself a Part III chapter companion, the way [Axiom](https://github.com/knowledgetrailsai/Axiom) is a background reference rather than a chapter companion. See the [Companion Repository Index](https://github.com/knowledgetrailsai/OASIS/blob/main/References/companion-repository-index.md) for the full map of which repository backs which chapter.
 
-- **[OASIS](https://github.com/knowledgetrailsai/OASIS)** — the operating lifecycle for delivering a selected use case, end to end.
-- **[oasis-fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum)** — the AI FinOps methodology for costing and valuing a use case once selected.
-- **[Responsible-AI](https://github.com/knowledgetrailsai/Responsible-AI)** — the governance, risk, and assurance framework for building it responsibly.
+**Nexus answers "where should we look?"** Once a use case is selected here, it moves into the chapter-specific companions that answer "how do we build, evaluate, secure, cost, and govern it":
 
-**This repository answers "where should we look?"** The companions answer "how do we deliver, cost, and govern it?"
+- **[Ageis](https://github.com/knowledgetrailsai/Ageis)** (Chapter 14) — agentic coding delivery, once the use case reaches implementation.
+- **[Forge](https://github.com/knowledgetrailsai/Forge)** (Chapter 15) — data and knowledge engineering; a use case's data dependencies are scoped here.
+- **[Loom](https://github.com/knowledgetrailsai/Loom)** (Chapter 16) — human-AI workflow; a use case's human-in-the-loop shape is decided here.
+- **[Helm](https://github.com/knowledgetrailsai/HELM)** (Chapters 17/18/19/21/26) — deployment, operations, and AgentOps once the use case ships.
+- **[Verity](https://github.com/knowledgetrailsai/Verity)** (Chapter 18) — the deep evaluation and reliability methodology.
+- **[Compass](https://github.com/knowledgetrailsai/responsible-ai)** (Chapters 19–20) — responsible AI, security, and regulatory compliance.
+- **[Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum)** (Chapter 22) — cost and value tracking once the use case is in production.
 
 ## Contributing
 
