@@ -1,0 +1,27 @@
+# Nexus
+
+> Nexus is the cross-cutting use-case and opportunity-mapping companion to the OASIS methodology — cataloging where agentic AI applies across roughly 40 business functions and industry domains, feeding OASIS Chapter 5's opportunity portfolio.
+
+See [INDEX.md](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/INDEX.md) for the complete flat file list.
+
+## Foundations
+
+- [What Is This Repository](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/01-foundations/what-is-this-repository.md)
+- [The Agentic Automation Spectrum](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/01-foundations/agentic-automation-spectrum.md)
+- [Discovering Use Cases](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/01-foundations/discovering-use-cases.md)
+- [Use-Case Anatomy](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/01-foundations/use-case-anatomy.md)
+
+## Functions and domains
+
+- [Functions Index](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/02-functions): 15 business functions (Sales, Finance, HR, IT & Security, Legal, and more), each with use cases.
+- [Domains Index](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/03-domains): 15 industry domains (Financial Services, Healthcare, Insurance, Manufacturing, and more).
+- [The Opportunity Grid](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/04-grid/opportunity-grid.md): cross-tabulates functions against domains.
+
+## Reference
+
+- [Glossary](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/glossary)
+
+## Companion repositories
+
+- [OASIS](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/llms.txt) — parent methodology (feeds Chapter 5, Opportunity Portfolio).
+- [Ageis](https://raw.githubusercontent.com/knowledgetrailsai/Agentic-Engineeering-SDLC/main/llms.txt), [Forge](https://raw.githubusercontent.com/knowledgetrailsai/Forge/master/llms.txt), [Loom](https://raw.githubusercontent.com/knowledgetrailsai/LOOM/master/llms.txt), [Helm](https://raw.githubusercontent.com/knowledgetrailsai/HELM/main/llms.txt), [Verity](https://raw.githubusercontent.com/knowledgetrailsai/VERITY/master/llms.txt), [Compass](https://raw.githubusercontent.com/knowledgetrailsai/responsible-ai/main/llms.txt), [Fulcrum](https://raw.githubusercontent.com/knowledgetrailsai/OASIS-AI-FINOPS/main/llms.txt) — chapter companions a discovered use case will draw on to implement.
