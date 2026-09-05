@@ -13,7 +13,7 @@ See [00-navigation-and-methodology/knowledge-map.md](00-navigation-and-methodolo
 
 ## Start Here
 
-New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repository.md](00-navigation-and-methodology/how-to-use-this-repository.md) — it routes you by function-first, domain-first, or "show me everything."
+New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repository.md](00-navigation-and-methodology/how-to-use-this-repository.md), which routes you by function-first, domain-first, or "show me everything."
 
 ## Repository Structure
 
@@ -25,9 +25,9 @@ New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repo
 - [What Is This Repository](01-foundations/what-is-this-repository.md)
 - [Principles](01-foundations/principles.md)
 - [The Agentic Automation Spectrum (L1–L4)](01-foundations/agentic-automation-spectrum.md)
-- [Capabilities & Outcomes](01-foundations/capabilities-and-outcomes.md) — the capability taxonomy and outcome categories every use case is tagged against
+- [Capabilities & Outcomes](01-foundations/capabilities-and-outcomes.md): the capability taxonomy and outcome categories every use case is tagged against
 - [Discovering Use Cases](01-foundations/discovering-use-cases.md) — process analysis, workshops, shadowing, and other discovery methods, aligned to OASIS Phase 1
-- [Use-Case Anatomy](01-foundations/use-case-anatomy.md) — how to turn an idea into a bounded workflow
+- [Use-Case Anatomy](01-foundations/use-case-anatomy.md), covering how to turn an idea into a bounded workflow
 - [Evaluation & Rollout](01-foundations/evaluation-and-rollout.md) — test layers, launch gates, and autonomy progression
 
 ### 02 · Functions (the common patterns)
@@ -69,7 +69,7 @@ New to this repository? Read [00-navigation-and-methodology/how-to-use-this-repo
 - [Prioritization Framework](04-grid/prioritization-framework.md)
 
 ### 05 · Use Cases
-46 detailed entries spanning the common function patterns plus domain-exclusive workflows — see [05-use-cases/](05-use-cases/benefits-eligibility-document-verification-agent.md) for the full list. Domain-exclusive entries are intentionally not forced into the general grid. Newer entries also carry a "Who This Is For" section (plain-language / business / technical summaries) and a KPIs Influenced section — see the [use case template](templates/use-case-template.md).
+46 detailed entries spanning the common function patterns plus domain-exclusive workflows. See [05-use-cases/](05-use-cases/benefits-eligibility-document-verification-agent.md) for the full list. Domain-exclusive entries are intentionally not forced into the general grid. Newer entries also carry a "Who This Is For" section (plain-language / business / technical summaries) and a KPIs Influenced section — see the [use case template](templates/use-case-template.md).
 
 ### Glossary & Templates
 - [Glossary](glossary/glossary.md)
@@ -88,16 +88,16 @@ Not sure where to look? See [INDEX.md](INDEX.md) for every file, or [00-navigati
 
 ## Relationship to companion repositories
 
-Nexus is the cross-cutting opportunity catalog feeding [OASIS](https://github.com/knowledgetrailsai/OASIS) Chapter 5 (Opportunity Portfolio and Transformation Horizons) — it is not itself a Part III chapter companion, the way [Axiom](https://github.com/knowledgetrailsai/Axiom) is a background reference rather than a chapter companion. See the [Companion Repository Index](https://github.com/knowledgetrailsai/OASIS/blob/main/References/companion-repository-index.md) for the full map of which repository backs which chapter.
+Nexus is the cross-cutting opportunity catalog feeding [OASIS](https://github.com/knowledgetrailsai/OASIS) Chapter 5 (Opportunity Portfolio and Transformation Horizons). It is not itself a Part III chapter companion, the way [Axiom](https://github.com/knowledgetrailsai/Axiom) is a background reference rather than a chapter companion. See the [Companion Repository Index](https://github.com/knowledgetrailsai/OASIS/blob/main/References/companion-repository-index.md) for the full map of which repository backs which chapter.
 
 **Nexus answers "where should we look?"** Once a use case is selected here, it moves into the chapter-specific companions that answer "how do we build, evaluate, secure, cost, and govern it":
 
-- **[Ageis](https://github.com/knowledgetrailsai/Ageis)** (Chapter 14) — agentic coding delivery, once the use case reaches implementation.
-- **[Forge](https://github.com/knowledgetrailsai/Forge)** (Chapter 15) — data and knowledge engineering; a use case's data dependencies are scoped here.
-- **[Loom](https://github.com/knowledgetrailsai/Loom)** (Chapter 16) — human-AI workflow; a use case's human-in-the-loop shape is decided here.
-- **[Helm](https://github.com/knowledgetrailsai/HELM)** (Chapters 17/18/19/21/26) — deployment, operations, and AgentOps once the use case ships.
+- **[Ageis](https://github.com/knowledgetrailsai/Ageis)** (Chapter 14): agentic coding delivery, once the use case reaches implementation.
+- **[Forge](https://github.com/knowledgetrailsai/Forge)** (Chapter 15): data and knowledge engineering, where a use case's data dependencies are scoped.
+- **[Loom](https://github.com/knowledgetrailsai/Loom)** (Chapter 16): human-AI workflow, where a use case's human-in-the-loop shape is decided.
+- **[Helm](https://github.com/knowledgetrailsai/HELM)** (Chapters 17/18/19/21/26): deployment, operations, and AgentOps once the use case ships.
 - **[Verity](https://github.com/knowledgetrailsai/Verity)** (Chapter 18) — the deep evaluation and reliability methodology.
-- **[Compass](https://github.com/knowledgetrailsai/responsible-ai)** (Chapters 19–20) — responsible AI, security, and regulatory compliance.
+- **[Compass](https://github.com/knowledgetrailsai/responsible-ai)** (Chapters 19–20): responsible AI, security, and regulatory compliance.
 - **[Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum)** (Chapter 22) — cost and value tracking once the use case is in production.
 
 ## Contributing
@@ -106,7 +106,7 @@ This is a living catalog — see [CONTRIBUTING.md](CONTRIBUTING.md). New use cas
 
 ## Disclaimer
 
-Every use case's Value Signal is a plausible hypothesis, not a committed business case — see [Principles](01-foundations/principles.md#value-signal-not-a-value-case). Every use case's Key Risks section is a starting flag, not a complete risk assessment — see [Responsible-AI](https://github.com/knowledgetrailsai/Responsible-AI) for full treatment before deployment.
+Every use case's Value Signal is a plausible hypothesis, not a committed business case (see [Principles](01-foundations/principles.md#value-signal-not-a-value-case)). Every use case's Key Risks section is a starting flag, not a complete risk assessment — see [Responsible-AI](https://github.com/knowledgetrailsai/Responsible-AI) for full treatment before deployment.
 
 ## License
 
